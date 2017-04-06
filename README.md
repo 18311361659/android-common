@@ -20,16 +20,18 @@ $ gradle clean uploadArchives
 1.在repositories 添加
 
 ```
-	mavenCentral()
-   	//这里加入自己的maven地址
-    maven {
-        url "http://repo.bjcathay.com/content/groups/public/"
-   	}
+		allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 2.在dependencies 添加
 
-```
-	compile 'com.bjcathay:android:0.0.3'
+```	dependencies {
+		compile 'com.github.User:Repo:Tag'
+	}
 ```
 
 # 模块
