@@ -31,8 +31,9 @@ $ gradle clean uploadArchives
 
 ```
 	dependencies {
-		compile 'com.github.User:Repo:Tag'
+	        compile 'com.github.18311361659:android-common:1.0.1'
 	}
+
 ```
 
 # 模块
