@@ -20,7 +20,7 @@ $ gradle clean uploadArchives
 1.在repositories 添加
 
 ```
-		allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -29,7 +29,7 @@ $ gradle clean uploadArchives
 ```
 2.在dependencies 添加
 
-```			dependencies {
+```		dependencies {
 		compile 'com.github.User:Repo:Tag'
 	}
 ```
