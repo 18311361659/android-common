@@ -29,7 +29,8 @@ $ gradle clean uploadArchives
 ```
 2.在dependencies 添加
 
-```		dependencies {
+```
+	dependencies {
 		compile 'com.github.User:Repo:Tag'
 	}
 ```
